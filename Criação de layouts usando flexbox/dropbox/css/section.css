@@ -1,0 +1,75 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.section1 h1,
+p {
+  color: white;
+}
+
+.section1 h1 {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+.section1-texto {
+  width: 500px;
+}
+
+.section1-paragrafo {
+  width: 540px;
+}
+
+.video-dropbox {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section1 {
+  background-color: rgb(51, 51, 51);
+  padding: 30px;
+  height: 100%;
+}
+
+.segundo-paragrafo {
+  margin-top: 20px;
+}
+
+span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terceiro-paragrafo {
+  display: flex;
+  align-items: center;
+  background-color: rgb(57, 132, 255);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  width: 430px;
+  cursor: pointer;
+}
+
+.botao-azul {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  align-items: start;
+  margin-right: 10px;
+}
+
+.quarto-paragrafo {
+  margin-top: 20px;
+  display: flex;
+  color: white;
+}
+
+.quarto-paragrafo svg {
+  margin-left: 10px;
+  cursor: pointer;
+}
