@@ -1,0 +1,92 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.lupa {
+  background-color: rgb(255, 120, 143);
+  padding: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+header li {
+  list-style: none;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.barra-pesquisa {
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+}
+
+.pesquisa svg {
+  color: white;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  margin-right: 100px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.shots {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shots p {
+  font-size: 14px;
+}
+
+.shots svg {
+  color: black;
+}
+
+.header-botoes {
+  padding: 10px;
+}
+
+.header-botoes button {
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+}
+
+.sign {
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.log {
+  background-color: black;
+  color: white;
+  width: 80px;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.section1 {
+  margin-top: 50px;
+}
+
+.section1 ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+.menu-centro {
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.menu-centro span {
+  padding: 10px;
+  border-radius: 20px;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+  cursor: pointer;
+}
+
+.menu-centro span:hover {
+  background-color: gray;
+  color: white;
+}
+
+#opcoes {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.li-filtros {
+  display: flex;
+  border: solid;
+  padding: 10px;
+  border-radius: 30px;
+  border-width: 1px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.li-filtros svg {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.li-filtros p {
+  margin-right: 5px;
+}
